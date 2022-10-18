@@ -1,0 +1,16 @@
+<button (click)="filterById(5)">
+Faculty Resources
+</button> | 
+<button (click)="filterById(6)">
+Student Resources
+</button>
+<hr>
+<div *ngFor="let i of [4,5,6]">
+    <button (click)="filterByQbankAndTypeID(typeId,i)">{{i}}</button>
+</div>
+<hr>
+<button (click)=" filterByStatus(2)"> All </button> | <button (click)="filterByStatus(0)"> New </button> | <button (click)=" filterByStatus(1)"> Updated </button>
+<hr>
+<app-resources>
+
+</app-resources>

@@ -1,0 +1,5 @@
+<ul>
+    <li *ngFor="let resource of (resources|async).filteredResources">
+       {{ resource.resourceName}}
+    </li>
+</ul>

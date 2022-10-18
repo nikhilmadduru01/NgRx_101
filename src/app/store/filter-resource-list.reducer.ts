@@ -5,6 +5,7 @@ import *  as ResourceFilterActions from "./filter-resource-list.actions";
 const initialState = {
     totalResources: [ 
         new Resource(5,1,4,'resource-5-1-N-4',FileTag.New),
+        new Resource(5,1,4,'resource-5-1-N-4',FileTag.New),
         new Resource(5,1,4,'resource-5-1-U-4',FileTag.Updated),
         new Resource(5,1,4,'resource-5-1-Us-4',FileTag.Used),
         new Resource(5,2,5,'resource-5-2-N-5',FileTag.New),
